@@ -12,7 +12,7 @@ This is a 7days project for me to get used to C and the bridge to start leetcode
 
 ## 📁 專案結構
 c-foundations-7d/
-├─ day00/ # ✅ 環境檢查 & Hello World
+├─ day00/ # ✅ 環境檢查 & Hello World practice the foundamental problems again
 ├─ day01/ # ✅ if / loop / basic I/O
 ├─ day02/ # ✅ 指標函式：swap、sum_array
 ├─ day03/ # ✅ Mini Vector (malloc / realloc)

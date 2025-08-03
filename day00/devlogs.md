@@ -27,3 +27,23 @@ line 44 : "Farenheit"
 ## use %g for printing result 
 instead of using %f or %.nf, %g will drop the rest of 0
 like, result = 169.1000 / in practical: 169.1;
+
+# 2025-08-03 — Day X: Number Guessing Game
+**What I built**
+- A console number-guessing game that picks a random integer in [min, max] and gives higher/lower hints.
+
+**What went well**
+- Input/loop logic felt smooth.
+- Clear hint messages and try counter.
+
+**What I got stuck on**
+1) Forgot the RNG formula for a bounded range.
+2) Forgot what `rand()` actually returns.
+
+**What I learned / noted**
+- Seed once: `srand((unsigned)time(NULL));`
+- `rand()` → [0, RAND_MAX]; bounded range: `min + rand() % (max - min + 1)`.
+- Added input validation and min/max swap for robustness.
+
+**Extra notes**
+I pushed two version of this program to compare my code and gpt's.

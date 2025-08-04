@@ -47,3 +47,16 @@ like, result = 169.1000 / in practical: 169.1;
 
 **Extra notes**
 I pushed two version of this program to compare my code and gpt's.
+
+# Banking Account program 0804
+
+**What I got stuck on**
+1) I forgot the "break;" in the switch case after add the new case 4:
+- Causing the code continue running after case4 and goes to the next case which is default.
+**What I got more understanding**
+The relationship between argument and parameter passing within different functions.
+- In C, function arguments are passed by value. That means balance inside deposit/withdra is a copy. The only way your changes get back to main is via the return value—so your line 
+float deposit(float balance) : copy the balance in main
+balance_in_main =  deposit(balance_in_main);
+- If you wrote just deposit(balance_in_main); and ignored the return, the balance in main would not change.
+Alternativly, use pointer.

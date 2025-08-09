@@ -60,3 +60,5 @@ float deposit(float balance) : copy the balance in main
 balance_in_main =  deposit(balance_in_main);
 - If you wrote just deposit(balance_in_main); and ignored the return, the balance in main would not change.
 Alternativly, use pointer.
+# 2025-08-09 — Day X: pointer review and malloc
+I did pointer review and malloc foundamental enhancement.

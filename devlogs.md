@@ -62,3 +62,8 @@ balance_in_main =  deposit(balance_in_main);
 Alternativly, use pointer.
 # 2025-08-09 — Day X: pointer review and malloc
 I did pointer review and malloc foundamental enhancement.
+
+# 2025-08-11 — Day X: memory allocation review
+malloc(), calloc(), realloc() practice;
+I spent like 5 mins on malloc and calloc but 11 mins on realloc();
+- ps. I forgot to check if realloc() successfully return the address to temp.

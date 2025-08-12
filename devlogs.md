@@ -67,3 +67,14 @@ I did pointer review and malloc foundamental enhancement.
 malloc(), calloc(), realloc() practice;
 I spent like 5 mins on malloc and calloc but 11 mins on realloc();
 - ps. I forgot to check if realloc() successfully return the address to temp.
+
+# 2025-08-12 — Day one leetcode 30d chellenge: Single number
+- Given a non-empty array of integers, every element appears twice except for one. Find that single one. two method bellow:
+1) nested forloop , check the first number compare to the others;
+use count to decide if the number is repeated, if it's not , return it.
+2) Utilizing XOR.
+- spendtime: 35mins:50s;
+Bug1: I put the if(count == 1)statement in the secound loop which caused the first number only compare to itself and then check the if(count == 1);
+Bug2: Also, remember to initialize the count after a full array comparison.
+Bug3: Return warrning in function: The compiler gave the warrning cause I didn't add the return 0 to the end of the funtion, usually, the function will end up right after 
+return the num[i]; Yet, we stil leave a possible path to the end of the funtion. To avoid the posibility of that and warrning from compiler, we gave funtion return 0; at the end. 

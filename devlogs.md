@@ -78,3 +78,6 @@ Bug1: I put the if(count == 1)statement in the secound loop which caused the fir
 Bug2: Also, remember to initialize the count after a full array comparison.
 Bug3: Return warrning in function: The compiler gave the warrning cause I didn't add the return 0 to the end of the funtion, usually, the function will end up right after 
 return the num[i]; Yet, we stil leave a possible path to the end of the funtion. To avoid the posibility of that and warrning from compiler, we gave funtion return 0; at the end. 
+
+# 2025-08-15 — Day two leetcode 30d chellenge: Happy Number
+- i figured out how the algorithm worked and code two version of it!
